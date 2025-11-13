@@ -13,7 +13,7 @@ const convertKgToG = (input: InputType): number => {
         return input * 1000;
     }
 
-    throw new Error("Invalid input type: Please provide a number or a string representing kilograms.");
+    throw new Error("Invalid input: Please provide a number or a string representing kilograms.");
 
 
 }
